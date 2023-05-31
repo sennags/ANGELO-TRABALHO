@@ -1,0 +1,123 @@
+
+.treeview-sidebar {
+  width: 250px;
+  background: #f8f9fa;
+}
+
+.show-card {
+  margin-bottom: 20px;
+}
+header{
+    background-color: black;
+    height: 100px;
+}
+body{   
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+#corpo{
+    background-color: rgb(122, 111, 111);
+    background-image: url(imagens/background.jpg);  
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    max-width: 100%;
+    height: 980px;
+}
+
+#card{
+    width: 450px;
+    height: 250px;
+    margin: auto;
+    margin-top: 20px;     
+}
+
+footer{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: -20px;
+    
+}
+
+.mainmenubtn {
+    /* background-color: skyblue; */
+    color: white;
+    border: none;
+    cursor: pointer;  
+    margin-top:10px;
+    width: 120px;
+}
+.mainmenubtn:hover {
+    background-color: black(122, 122, 133);    
+    }
+.dropdown {
+    position: absolute;
+    display: inline-block;    
+}
+.dropdown-child {
+    display: none;
+    /* background-color: rgb(33, 32, 32); */
+    min-width: 100px;
+    margin-left: 80px;
+    margin-top: -80px;
+}
+.dropdown-child a {
+    color: rgb(217, 217, 227);  
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+#cadastro{
+    width: 450px;
+    margin: auto;
+}
+.align-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.icones-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+#imagem1{
+    margin-top: 40px;
+    max-width: 350px;
+    margin-left: 30px;   
+}
+#imagem2{
+    margin-top: 75px;
+}
+#imagem3{
+    max-width: 220px;
+    margin-left: 110px;
+}
+a{
+  outline: none;
+}
+
+#titulo{
+    margin-left: 100px;
+    font-size: 55px;
+    color: blue;
+}
+
+.icon-background {
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+.footer2{
+    margin-top: 50px;
+}
+
